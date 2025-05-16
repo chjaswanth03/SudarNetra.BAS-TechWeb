@@ -1,0 +1,68 @@
+
+@layer base {
+  :root {
+    --background: 220 20% 10%; /* Deep Blue-Gray */
+    --foreground: 210 30% 95%; /* Soft White */
+
+    --card: 220 20% 13%; 
+    --card-foreground: 210 30% 95%;
+
+    --popover: 220 20% 13%;
+    --popover-foreground: 210 30% 95%;
+
+    --primary: 35 90% 60%; /* Rich Gold/Amber */
+    --primary-foreground: 35 90% 10%; /* Darker shade for text on primary */
+
+    --secondary: 190 70% 50%; /* Sophisticated Teal/Sapphire */
+    --secondary-foreground: 190 70% 10%; /* Darker shade for text on secondary */
+
+    --muted: 220 15% 25%; 
+    --muted-foreground: 210 20% 65%;
+
+    --accent: 280 60% 65%; /* Rich Amethyst/Magenta */
+    --accent-foreground: 280 60% 10%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 15% 20%; 
+    --input: 220 15% 18%;
+    --ring: 35 90% 60%; 
+
+    --radius: 0.65rem; 
+    --radius-lg: 0.9rem; 
+
+    --button-hover-glow: 35 100% 70%; /* Brighter Gold for hover */
+  }
+
+  .dark {
+    --background: 220 20% 10%;
+    --foreground: 210 30% 95%;
+
+    --card: 220 20% 13%;
+    --card-foreground: 210 30% 95%;
+
+    --popover: 220 20% 13%;
+    --popover-foreground: 210 30% 95%;
+
+    --primary: 35 90% 60%;
+    --primary-foreground: 35 90% 10%;
+
+    --secondary: 190 70% 50%;
+    --secondary-foreground: 190 70% 10%;
+
+    --muted: 220 15% 25%;
+    --muted-foreground: 210 20% 65%;
+
+    --accent: 280 60% 65%;
+    --accent-foreground: 280 60% 10%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 18%;
+    --ring: 35 90% 60%;
+    --button-hover-glow: 35 100% 70%;
+  }
+}
